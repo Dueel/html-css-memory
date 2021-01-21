@@ -1,28 +1,43 @@
-.container{
-  margin: 30px auto;
-  background-color: lightgrey;
-  width: 40vw;
-  height: 100px;
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
-  font-family: 'Nerko One', cursive;
-  font-size: 100px;
 }
 
-main>section{
+body{
+  background-color: lightblue;
+}
+
+main{
+  background-color: blue;
+  width: 60vw;
   margin: auto;
-  /* width: 60vw; */
-  /* height: 80vh; */
-  /* background-color: red;
-  display: inline-block; */
+}
+
+header div{
+  font-family: 'Nerko One', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+.row{
+  background: lightgrey;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
 }
 
 .card{
-  margin: 5px;
-  background-color: grey;
+  background: grey;
   width: 150px;
   height: 200px;
-  border-radius: 10px;
   display: inline-block;
+}
 
+footer div{
+  margin: 30px auto;
+  font-family: 'Nerko One', cursive;
+  font-size: 30px;
+  text-align: center;
 }
