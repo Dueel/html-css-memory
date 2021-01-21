@@ -10,54 +10,61 @@ body{
   background-color: lightblue;
 }
 
-main{
-  width: 60vw;
-  margin: auto;
-}
-
-/* SPECIFIC RULES */
-
 header div{
   font-family: 'Nerko One', cursive;
   font-size: 100px;
-  text-align: center;
   color: white;
-  margin: 30px;
+  text-align: center;
 }
 
-.row{
+main{
+  width: 80vw;
+  height: 500px;
+  margin:auto;
+}
+
+
+
+/* SPECIFIC RULES */
+
+section{
+  width: 70vw;
   margin: auto;
   text-align: center;
 }
 
 .card{
-  background: white;
+  background-color: white;
   width: 200px;
-  height: 275px;
+  height: 250px;
   display: inline-block;
   border-radius: 10px;
-  margin: 10px;
+
 }
 
 img{
-  width: 172px;
+ width: 180px;
+ position: relative;
+ top: 10px;
+}
+
+.name{
+  font-family: 'Nerko One', cursive;
+  font-size: 30px;
+  color: pink;
   position: relative;
   top: 20px;
 }
 
-.card div{
-  font-family: 'Nerko One', cursive;
-  font-size: 35px;
-  color: pink;
-  margin: 10px;
-  /* position: relative;
-  top: 30px */
+.card:hover{
+  background-image: url('../img/pattern.png');
+  background-size: contain;
+  background-color: white;
 }
 
 /* FOOTER */
 
 footer div{
-  margin: 30px auto;
   font-family: 'Nerko One', cursive;
   font-size: 30px;
   text-align: center;
