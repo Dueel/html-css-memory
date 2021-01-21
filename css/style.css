@@ -1,0 +1,28 @@
+.container{
+  margin: 30px auto;
+  background-color: lightgrey;
+  width: 40vw;
+  height: 100px;
+  box-sizing: border-box;
+
+  font-family: 'Nerko One', cursive;
+  font-size: 100px;
+}
+
+main>section{
+  margin: auto;
+  /* width: 60vw; */
+  /* height: 80vh; */
+  /* background-color: red;
+  display: inline-block; */
+}
+
+.card{
+  margin: 5px;
+  background-color: grey;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  display: inline-block;
+
+}
