@@ -19,7 +19,7 @@ header div{
 
 main{
   width: 80vw;
-  height: 500px;
+  height: 800px;
   margin:auto;
 }
 
@@ -39,28 +39,39 @@ section{
   height: 250px;
   display: inline-block;
   border-radius: 10px;
-
+  margin: 5px;
+  position: relative;
 }
 
 img{
  width: 180px;
- position: relative;
+ position: absolute;
  top: 10px;
+ left: 20px;
 }
 
 .name{
   font-family: 'Nerko One', cursive;
   font-size: 30px;
   color: pink;
-  position: relative;
-  top: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
 }
 
-.card:hover{
+div div:last-child{
   background-image: url('../img/pattern.png');
   background-size: contain;
-  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
 }
+
+div div:last-child:hover{
+  display: none;
+}
+
 
 /* FOOTER */
 
@@ -68,4 +79,5 @@ footer div{
   font-family: 'Nerko One', cursive;
   font-size: 30px;
   text-align: center;
+  margin: 30px;
 }
